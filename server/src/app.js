@@ -9,6 +9,7 @@ import errorHandlingMiddleware from './middleware/errorHandling.middleware.js';
 import userRoutes from './routes/users.route.js';
 import roomRoutes from './routes/rooms.route.js'
 import authRoutes from './routes/auth.route.js'
+import registerRoutes from './routes/register.route.js'
 
 const { URL } = config.env;
 const app = express();
@@ -20,6 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/register', registerRoutes);
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/rooms', roomRoutes);
 

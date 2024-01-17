@@ -24,7 +24,7 @@ enum Status {
 
 model Apartment {
   apartment_id   Int    @id @default(autoincrement())
-  apartment_name String @db.VarChar(50)
+  apartment_name String @db.VarChar(50) @unique
   total_student  Int    @default(0)
   total_room     Int    @default(0)
   User           User?  @relation(fields: [manager_id], references: [user_id])

@@ -7,7 +7,7 @@ const roomController = {
 
         const { apartment_name } = req.query;
 
-        console.log(apartment_name)
+        //console.log(apartment_name)
 
         try {
             const allRoomsByApart = await prisma.room.findMany({
@@ -18,12 +18,15 @@ const roomController = {
                 },
                 select: {
                     room_name: true,
+                    participants: true,
                     RoomType: true,
                 }
-            })
-            res.status(StatusCodes.OK).json(allRoomsByApart)
+            });
+
+            res.status(StatusCodes.OK).json({allRoomsByApart})
         } catch (error) {
-            console.log(error)
+            next(error);  
+            throw new ApiError(StatusCodes.INTERNAL_SERVER_ERROR, error.message);
         }
 
     },
