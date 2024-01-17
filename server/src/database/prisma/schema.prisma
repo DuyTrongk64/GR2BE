@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+enum Status {
+  OPENING
+  CLOSE
+}
+
+model Apartment {
+  apartment_id   Int    @id @default(autoincrement())
+  apartment_name String @db.VarChar(50)
+  total_student  Int    @default(0)
+  total_room     Int    @default(0)
+  User           User?  @relation(fields: [manager_id], references: [user_id])
+  manager_id     Int?
+  Room           Room[]
+
+  @@map("apartment")
+}
+
+model Room {
+  room_id      Int        @id @default(autoincrement())
+  room_name    String     @db.VarChar(50)
+  RoomType     RoomType?  @relation(fields: [room_type_id], references: [room_type_id])
+  room_type_id Int?
+  Apartment    Apartment? @relation(fields: [apartment_id], references: [apartment_id])
+  apartment_id Int?
+  participants Int        @default(0)
+  User         User[]
+
+  @@map("room")
+}
+
+model RoomType {
+  room_type_id Int    @id @default(autoincrement())
+  gender       Gender
+  capacity     Int
+  price        Int
+  Room         Room[]
+
+  @@map("room_type")
+}
+
+model User {
+  user_id      Int         @id @default(autoincrement())
+  email        String      @unique @db.VarChar(50)
+  full_name    String      @db.VarChar(50)
+  mssv         String      @unique @db.VarChar(50)
+  password     String      @db.VarChar(255)
+  user_type    Role        @default(USER)
+  is_valid     Boolean     @default(false)
+  Room         Room?       @relation(fields: [room_id], references: [room_id])
+  room_id      Int?
+  major        String      @db.VarChar(50)
+  gender       Gender
+  avatar_url   String?     @db.VarChar(255)
+  batch        String      @db.VarChar(255)
+  phone_number String?     @db.VarChar(255)
+  birthday     DateTime    @db.Date
+  Apartment    Apartment[]
+
+  @@map("users")
+}
+
+model Registration {
+  registration_id   Int      @id @default(autoincrement())
+  registration_name String   @db.VarChar(50)
+  start_register    DateTime @default(now()) @db.Date
+  end_register      DateTime @db.Date
+  semester          String
+  status            Status   @default(OPENING)
+
+  @@map("registration")
+}

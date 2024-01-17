@@ -1,0 +1,1 @@
+{"buildTargets":[".PHONY","Makefile","all","build","db","db-exec","db-logs","down","help","server-logs","tag-and-push-image","up"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

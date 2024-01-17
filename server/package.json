@@ -1,0 +1,46 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "itss": "cli/index.cjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "format": "prettier --write \"src/**/*.js\"",
+    "prisma:seed": "npx prisma db seed",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:reset": "npx prisma migrate reset",
+    "prisma:docker": "npx prisma migrate reset --force",
+    "prisma:generate": "npx prisma generate --generator client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "bcrypt": "^5.1.1",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^129.0.0",
+    "http-status-codes": "^2.3.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "winston": "^3.11.0",
+    "yargs": "^17.7.2"
+  },
+  "prisma": {
+    "schema": "src/database/prisma/schema.prisma",
+    "seed": "node src/database/seeds/index.js"
+  },
+  "devDependencies": {
+    "prisma": "^5.8.1"
+  }
+}

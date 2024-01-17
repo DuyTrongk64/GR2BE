@@ -1,0 +1,643 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -C infrastructure all
+ 
+# make[1]: Entering directory 'c:/Users/trong/code/Doan/infrastructure'
+ 
+make[1]: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jan 16 16:56:36 2024
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\trong
+# environment
+LOCALAPPDATA = C:\Users\trong\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Users\trong\code\Doan
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GOPATH = C:\Users\trong\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6212_ZBVPXESSEMUZRUNU
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\trong\AppData\Roaming\Code\CachedData\0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\trong\AppData\Local\Temp
+# default
+.INCLUDE_DIRS := .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\trong\OneDrive
+# makefile
+CURDIR := c:/Users/trong/code/Doan/infrastructure
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+GOLAND = C:\Program Files\JetBrains\GoLand 2023.2.4\bin;
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 6212
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"vi","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\trong
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\trong\AppData\Local\Microsoft\WindowsApps;C:\Users\trong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trong\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\bin;;C:\Users\trong\go\bin;C:\Program Files\JetBrains\GoLand 2023.2.4\bin;;C:\Program Files (x86)\GnuWin32\bin;
+# environment
+COMPUTERNAME = CA_UOP_MUOI
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133452346689994015
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\bin;
+# environment
+LOGONSERVER = \\CA_UOP_MUOI
+# environment
+USERNAME = trong
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = CA_UOP_MUOI
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 1)
+.DEFAULT_GOAL := help
+# default
+MAKE_VERSION := 4.4.1
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = CA_UOP_MUOI
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\trong\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\trong\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\f51360035f0b558cdcf8199682653602-1.85.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
+# environment
+PROCESSOR_REVISION = 9705
+# environment
+EFC_7272 = 1
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=11/130=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/trong/code/Doan/infrastructure, mtime 1703835431): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-12-29 14:37:11
+#  File has been updated.
+#  Successfully updated.
+
+up:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	@docker compose up -d
+
+db-logs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	@docker compose logs -f postgres
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_-]+:.*?## / {printf "%-20s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+tag-and-push-image:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	@if [ -z "$(OLD_TAG)" ] || [ -z "$(NEW_TAG)" ]; then \
+		echo "Please provide OLD_TAG, NEW_TAG parameters"; \
+		exit 1; \
+	fi
+	@docker tag orochiteam/itss2:$(OLD_TAG) orochiteam/itss2:$(NEW_TAG) && \
+	docker push orochiteam/itss2:$(NEW_TAG)
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	@docker compose build server
+
+db:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	@docker compose up -d postgres
+
+db-exec:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	@docker compose exec -it postgres bash
+
+.PHONY: help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+down:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	@docker compose down
+
+server-logs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	@docker compose logs -f server
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=1/27=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 21 / storage = 172 B / avg = 8 B
+# current buf: size = 8174 B / used = 172 B / count = 21 / avg = 8 B
+
+# strcache performance: lookups = 36 / hit rate = 41%
+# hash-table stats:
+# Load=21/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Tue Jan 16 16:56:36 2024
+
+# make[1]: Leaving directory 'c:/Users/trong/code/Doan/infrastructure'
+ 
+make: *** [Makefile:2: all] Error 2
+
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jan 16 16:56:36 2024
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\trong
+# environment
+LOCALAPPDATA = C:\Users\trong\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Users\trong\code\Doan
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GOPATH = C:\Users\trong\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6212_ZBVPXESSEMUZRUNU
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\trong\AppData\Roaming\Code\CachedData\0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\trong\AppData\Local\Temp
+# default
+.INCLUDE_DIRS := .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\trong\OneDrive
+# makefile
+CURDIR := c:/Users/trong/code/Doan
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+GOLAND = C:\Program Files\JetBrains\GoLand 2023.2.4\bin;
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 6212
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"vi","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\trong
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\trong\AppData\Local\Microsoft\WindowsApps;C:\Users\trong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trong\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\bin;;C:\Users\trong\go\bin;C:\Program Files\JetBrains\GoLand 2023.2.4\bin;;C:\Program Files (x86)\GnuWin32\bin;
+# environment
+COMPUTERNAME = CA_UOP_MUOI
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133452346689994015
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\bin;
+# environment
+LOGONSERVER = \\CA_UOP_MUOI
+# environment
+USERNAME = trong
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = CA_UOP_MUOI
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := 
+# default
+MAKE_VERSION := 4.4.1
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = CA_UOP_MUOI
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\trong\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\trong\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\f51360035f0b558cdcf8199682653602-1.85.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
+# environment
+PROCESSOR_REVISION = 9705
+# environment
+EFC_7272 = 1
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=11/132=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/trong/code/Doan, mtime 1705398995): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%:
+#  recipe to execute (from 'Makefile', line 2):
+	$(MAKE) -C infrastructure $*
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+Makefile:
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Makefile'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-12-29 14:37:11
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 2):
+	$(MAKE) -C infrastructure $*
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'all'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := all
+# automatic
+# * := all
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'Makefile', line 2):
+	$(MAKE) -C infrastructure $*
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 12 / storage = 90 B / avg = 7 B
+# current buf: size = 8174 B / used = 90 B / count = 12 / avg = 7 B
+
+# st 
+rcache performance: lookups = 18 / hit rate = 33%
+# hash-table stats:
+# Load=12/8192=0%, Rehash=0, Collisions=0/18=0%
+# Finished Make data base on Tue Jan 16 16:56:36 2024
+
+ 

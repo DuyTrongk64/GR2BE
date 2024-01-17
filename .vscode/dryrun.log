@@ -1,0 +1,12 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/trong/code/Doan'
+C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -C infrastructure Makefile
+ 
+make[1]: Entering directory 'c:/Users/trong/code/Doan/infrastructure'
+make[1]: Nothing to be done for 'Makefile'.
+make[1]: Leaving directory 'c:/Users/trong/code/Doan/infrastructure'
+ 
+make: *** No targets.  Stop.
+
+make: Leaving directory 'c:/Users/trong/code/Doan'
+ 
